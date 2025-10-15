@@ -26,7 +26,9 @@ import com.example.newsapp.domain.SourceList
 import com.example.newsapp.presentation.theme.NewsAppTheme
 import com.example.newsapp.presentation.ui.composable.NewsAppTitle
 import com.example.newsapp.presentation.ui.composable.NewsItemImage
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
    val NEWS_SECRET_KEY = BuildConfig.NEWS_SECRET_KEY
 

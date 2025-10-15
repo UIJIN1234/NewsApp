@@ -1,6 +1,5 @@
 package com.example.newsapp.data.response
 
-import com.google.gson.annotations.SerializedName
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
